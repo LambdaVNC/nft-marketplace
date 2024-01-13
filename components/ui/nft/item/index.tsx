@@ -13,7 +13,7 @@ const NftItem: FunctionComponent<NftItemProps> = ({ item }) => {
       <div className="flex-shrink-0">
         <img
           className={`h-full w-full object-cover`}
-          src="https://www.businessworldglobal.com/wp-content/uploads/2023/09/NFT.jpeg"
+          src={item.image}
           alt="New NFT"
         />
       </div>
